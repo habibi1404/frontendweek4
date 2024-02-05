@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background images</title>
+    <style>
+        h1{
+            height: 300px;
+            background-image: url(./man-small.png), url(./table-small.png),
+             -webkit-linear-gradient(90deg, red 40%, green 40%);
+             background-size: 100px, 100px, 10px;
+             border: 3rem;
+            
+        }
+        h2{
+            height: 600px;
+            border: 10px  double black;
+            background-image: url(./man.jpg),url(./man-small.png), url(./table.jpg), url(./table-small.png);
+            background-size: 100px, 50px;
+            background-position: center, top right, top left, right bottom;
+            background-repeat: no-repeat;
+
+        }
+        section{
+            height: 500px;
+            border: 10px double black;
+            background-image: url(./man.jpg), url(./table-small.png) ,url(./man-small.png);
+            background-size: 150px, 80px;
+            background-repeat: no-repeat;
+            background-position: 120px 50px, 120px 300px, 300px 50px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Background element</h1>
+
+    <h2>another element</h2>
+
+    <section>
+
+    </section>
+
+    
+</body>
+</html>
